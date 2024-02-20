@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ...Group Utilities... */
+
+.secondCard {
+  @apply border flex md:flex md:flex-col items-center h-32 md:h-fit p-3 md:p-3 md:w-48 mx-4 md:mx-0 bg-slate-300 shadow-xl rounded-md space-x-2 md:space-y-2 overflow-hidden;
+}
+
+.li{
+  @apply font-thin;
+}
